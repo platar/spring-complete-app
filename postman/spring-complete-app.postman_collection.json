@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "5bd97aef-2ae1-4db8-9074-ec1d6a6241a4",
+		"name": "spring-complete-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/v1/registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\" : \"user1\",\r\n    \"lastName\" : \"example\",\r\n    \"email\" : \"platardev@gmail.com\",\r\n    \"password\" : \"password\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/registration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
